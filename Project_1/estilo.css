@@ -4,13 +4,17 @@
     background-color: #383156;
 }
 
+/* se eu tratar a imagem por fora o aqrquivo fica mais leve e tenho a mesma usuabilidade
+    quanto menor o peso da imagem melhor... MAS se a mesma imagem for usada multiplas vezes
+    em diferentes tamanhos ai é bom deixar a imagem defaut e alterar as caracteristicas no css
 .header img{
     width: auto;
     height: 98px;
 }
+*/
 
-.container-bunner img{
-    width: 100%;
+.container-banner {
+    width: auto;
     height: auto;
-    /*background-image: url('images/the_mighty_ducks.jpg');*/
+    background-image: url("images/the_mighty_ducks.jpg");
 }
