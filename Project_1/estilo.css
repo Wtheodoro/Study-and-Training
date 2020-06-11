@@ -14,7 +14,7 @@
 */
 
 .container-banner {
-    width: auto;
-    height: auto;
+    width: 439px;
     background-image: url("images/the_mighty_ducks.jpg");
+    background-attachment: auto;
 }
