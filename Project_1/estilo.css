@@ -14,7 +14,21 @@
 */
 
 .container-banner {
-    width: 439px;
+    width: 100%;
+    height: 439px;
     background-image: url("images/the_mighty_ducks.jpg");
     background-attachment: auto;
+    background-position: left;
+}
+
+.form {
+    width: 350px;
+    height: calc(100% + 30px);
+    float: right;
+    margin-right: 50px;
+    position: relative;
+    top: -15px;
+    border: 8px solid #ccc;
+    background-color: white;
+
 }
